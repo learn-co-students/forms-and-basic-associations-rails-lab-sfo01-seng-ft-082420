@@ -11,19 +11,19 @@ In this lab, we're going to make a song library that helps record thoughts
 about various `Song`s. Our data model looks like this:
 
 - `Artist`
-  - has a `name` attribute (`String`)
-  - has many `Song`s
+  [x]- has a `name` attribute (`String`)
+  [x]has many `Song`s
 - `Song`
-  - has a `title` attribute (`String`)
-  - belongs to an `Artist`
-  - belongs to a `Genre`
-  - has many `Note`s
+  [x] has a `title` attribute (`String`)
+  [x] belongs to an `Artist`
+  [x]belongs to a `Genre`
+  [x] has many `Note`s
 - `Genre`
-  - has a `name` attribute (`String`)
-  - has many `songs`
+  [x] has a `name` attribute (`String`)
+  [x] has many `songs`
 - `Note`
-  - has `content` attribute (`String`)
-  - belongs to a `Song`
+  [x] has `content` attribute (`String`)
+  [x] belongs to a `Song`
 
 ## Instructions
 
@@ -35,9 +35,9 @@ about various `Song`s. Our data model looks like this:
    The `ArtistsController` and `SongsController` have been built out so that you
    can do this.
 
-First, connect the models by using the `ActiveRecord` association commands.
+[x] First, connect the models by using the `ActiveRecord` association commands.
 
-Next, update the minimal `app/views/songs/new.html.erb`.
+[] Next, update the minimal `app/views/songs/new.html.erb`.
 
 This view should have a form that provides:
 
